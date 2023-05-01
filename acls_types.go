@@ -20,7 +20,7 @@ type ACLPolicy struct {
 	SSHs          []SSH         `json:"ssh"           yaml:"ssh"`
 }
 
-// ACL is a basic rule for the ACL Policy.
+// ACL is a basic rule for the ACL Policy!
 type ACL struct {
 	Action       string   `json:"action" yaml:"action"`
 	Protocol     string   `json:"proto"  yaml:"proto"`
