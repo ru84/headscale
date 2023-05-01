@@ -32,7 +32,7 @@ func (h *Headscale) generateMapResponse(
 			Caller().
 			Str("func", "generateMapResponse").
 			Err(err).
-			Msg("Cannot fetch peers")
+			Msg("Cannot fetch the peers")
 
 		return nil, err
 	}
